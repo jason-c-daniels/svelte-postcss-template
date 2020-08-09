@@ -1,6 +1,8 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
+   This is a customized version of the above file. It contains all of the former settings from global.css
+   appended to the bottom. (tweaked for consistency)
    ========================================================================== */
 
 /**
@@ -346,4 +348,74 @@ template {
 
 [hidden] {
   display: none;
+}
+
+
+  /**
+    moved from the original global.css.
+    TODO: Will need to dedupe and fix entries this is overriding from above.
+   */
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: var(--text-primary-color);
+  margin: 0;
+  padding: 8px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: var(--link-unvisited-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--link-visited-color);
+}
+
+label {
+  display: block;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-padding: 0.4em 0;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid var(--input-border-color);
+  border-radius: 2px;
+}
+
+input:disabled {
+  color: var(--input-disabled-color);
+}
+
+button {
+  color: var(--button-color);
+  background-color: var(--button-background-color);
+  outline: none;
+}
+
+button:disabled {
+  color: var(--button-disabled-color);
+}
+
+button:not(:disabled):active {
+  background-color: var(--button-background-color-active);
+}
+
+button:focus {
+  border-color: var(--button-border-color-focus);
 }

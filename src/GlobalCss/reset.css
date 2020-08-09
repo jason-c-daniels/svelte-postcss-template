@@ -1,3 +1,8 @@
+/** A customized, small reset script. Use this in place of normalize.css if you are in need of
+more detailed control of all elements and want a more intrusive set of consistency changes to occur.
+
+*/
+
 * {
     margin: 0;
     padding: 0;

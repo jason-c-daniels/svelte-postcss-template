@@ -1,8 +1,11 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-/* Document
-   This is a customized version of the above file. It contains all of the former settings from global.css
-   appended to the bottom. (tweaked for consistency)
+/* NOTE:
+   This is a customized version of the above file. It contains all of the former settings from global-properties.css
+   appended to the bottom. (tweaked for consistency) It is just one example of a CSS normalization file.
+   Feel free to replace it with any other normalization CSS you like.
+   Also be sure to customize it to your project needs. This is not a sacred file. Modify it wisely and
+   you'll save yourself a lot of work.
    ========================================================================== */
 
 /**
@@ -352,7 +355,7 @@ template {
 
 
   /**
-    moved from the original global.css.
+    moved from the original global-properties.css.
     TODO: Will need to dedupe and fix entries this is overriding from above.
    */
 

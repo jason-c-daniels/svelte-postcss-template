@@ -566,7 +566,7 @@ textarea,
 }
 
 /**
-   moved from the original global.css.
+   moved from the original global-properties.css.
    TODO: Will need to dedupe and fix entries this is overriding from above.
   */
 
@@ -595,10 +595,6 @@ a:hover {
 
 a:visited {
   color: var(--link-visited-color);
-}
-
-label {
-  display: block;
 }
 
 input, button, select, textarea {

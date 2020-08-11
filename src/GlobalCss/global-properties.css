@@ -11,6 +11,26 @@
 classes or elements, place definitions under :root */
 
 :root {
+	/* these examples are from material design (https://material.io/design/color/the-color-system.html#color-theme-creation) */
+
+	/* application/section colors */
+	--md-primary-color: #6200ee;
+	--md-primary-color-variant: #3700b3;
+	--md-secondary-color: #03dac6;
+	--md-secondary-color-variant:#018786;
+	--md-background-color: #fff;
+	--md-surface-color: #fff;
+	--md-error-color: #b00020;
+
+	/* typography and iconography */
+	--md-on-primary: #fff;
+	--md-on-secondary: #000;
+	--md-on-background: #000;
+	--md-on-surface: #000;
+	--md-on-error: #fff;
+
+
+	/* these examples are in use in normalize.css and sanitize.css */
 	--header-primary-background-color: transparent;
 	--header-primary-color: black;
 	--header-alternate-color: white;
@@ -28,22 +48,6 @@ classes or elements, place definitions under :root */
 	--button-background-color: #f4f4f4;
 	--button-background-color-active: #ddd;
 	--button-border-color-focus: #666;
-
-	/* pulling further color examples from material design (https://material.io/design/color/the-color-system.html#color-theme-creation) */
-
-	--md-primary-color: #6200ee;
-	--md-primary-color-variant: #3700b3;
-	--md-secondary-color: #03dac6;
-	--md-secondary-color-variant:#018786;
-	--md-background-color: #fff;
-	--md-surface-color: #fff;
-	--md-error-color: #b00020;
-	/* typography and iconography */
-	--md-on-primary: #fff;
-	--md-on-secondary: #000;
-	--md-on-background: #000;
-	--md-on-surface: #000;
-	--md-on-error: #fff;
 
 	/* NOTE: Any values that will be reused, within related/similar contexts, but spread across components are candidates to place in this file.*/
 }

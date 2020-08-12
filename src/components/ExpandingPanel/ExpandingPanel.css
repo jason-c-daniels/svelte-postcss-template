@@ -12,6 +12,7 @@
     overflow: hidden;
     position: relative;
     display: block;
+    margin-bottom: 1em;
 }
 
 .panel-content {

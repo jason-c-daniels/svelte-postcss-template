@@ -1,6 +1,6 @@
 <script>
     export let title="";
-    let expanded=true;
+    let expanded=false;
 
     function onExpanded() {
         expanded= !expanded;

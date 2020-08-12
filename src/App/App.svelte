@@ -1,6 +1,6 @@
 <script>
 	import GlobalCss from "../GlobalCss";
-	import About from "../components/About";
+	import Credits from "../components/Credits";
 
 	export let name;
 	export let appSettings = {applicationName: "WARNING: Please pass appSettings from within main.js props."};
@@ -17,5 +17,5 @@
 <GlobalCss/>
 
 <main>
-	<About />
+	<Credits />
 </main>

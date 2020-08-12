@@ -1,10 +1,11 @@
-import App from './App/App.svelte';
+import App from './App';
 
 const app = new App({
 	target: document.body,
 	props: {
-		appSettings:{ applicationName: "Svelte PostCSS demo app"},
-		name: 'world'
+		/* passing global application settings as a single object makes them easier to share among components
+		if you're not using a store */
+		appSettings: { applicationName: "Svelte PostCSS Demo App" }
 	}
 });
 

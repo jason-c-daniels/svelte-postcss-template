@@ -1,21 +1,21 @@
 <script>
-	import GlobalCss from "../GlobalCss";
-	import Credits from "../components/Credits";
+    import GlobalCss from "../GlobalCss";
+    import Credits from "../components/Credits";
 
-	export let name;
-	export let appSettings = {applicationName: "WARNING: Please pass appSettings from within main.js props."};
+    export let name;
+    export let appSettings = {applicationName: "WARNING: Please pass appSettings from within main.js props."};
 
 </script>
 <style>
-	@import "App.css";
+    @import "App.css";
 </style>
 
 <svelte:head>
-	<title>{appSettings.applicationName}</title>
+    <title>{appSettings.applicationName}</title>
 </svelte:head>
 
 <GlobalCss/>
 
 <main>
-	<Credits />
+    <Credits/>
 </main>

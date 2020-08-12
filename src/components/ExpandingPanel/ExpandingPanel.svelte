@@ -1,9 +1,9 @@
 <script>
-    export let title="";
-    let expanded=false;
+    export let title = "";
+    let expanded = false;
 
     function onExpanded() {
-        expanded= !expanded;
+        expanded = !expanded;
     }
 
 </script>
@@ -13,18 +13,18 @@
 
 <div class="panel">
     <div class="panel-header" on:click="{onExpanded}">
-            <span class="panel-title">{title}</span>
-            {#if (expanded)}
-                <div class="collapser" >-</div>
-            {:else}
-                <div class="expander">+</div>
-            {/if}
+        <span class="panel-title">{title}</span>
+        {#if (expanded)}
+            <div class="collapser">-</div>
+        {:else}
+            <div class="expander">+</div>
+        {/if}
     </div>
     {#if (expanded)}
-    <div class="panel-content">
-        <slot>
+        <div class="panel-content">
+            <slot>
 
-        </slot>
-    </div>
+            </slot>
+        </div>
     {/if}
 </div>
